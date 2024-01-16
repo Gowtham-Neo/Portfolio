@@ -7,7 +7,7 @@ export default function Home() {
       id="home"
       className="flex flex-col items-center min-h-screen p-10 md:flex-row md:justify-center md:bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-200"
     >
-      <div className="flex items-start justify-center flex-1 h-full">
+      <div className="flex items-start justify-around flex-1 h-full">
         <img
           src={image}
           alt="Sample"
@@ -33,13 +33,13 @@ export default function Home() {
           </h1>
         </h1>
         <div className="mt-4">
-        <a
-          href="https://drive.google.com/file/d/1Oy9X77JIINHsc9q2_4OOivPuvAyl_Obh/view"
-          target="_blank"
-          className="px-4 py-2 mt-6 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
-        >
-          My Resume
-        </a>
+          <a
+            href="https://drive.google.com/file/d/1Oy9X77JIINHsc9q2_4OOivPuvAyl_Obh/view"
+            target="_blank"
+            className="px-4 py-2 mt-6 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
+          >
+            My Resume
+          </a>
         </div>
       </div>
       <div className="absolute hidden right-4 bottom-4 md:block">
