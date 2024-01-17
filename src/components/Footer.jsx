@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Footer() {
   return (
-    <div className="relative left-0 right-0 flex flex-col items-center justify-center p-5 border bottom-1 md:bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-200 border-zinc-500">
+    <div className="relative bottom-0 left-0 right-0 flex flex-col items-center justify-center p-5 border md:bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-200 border-zinc-500">
       <div className="mb-5">
         <h2 className="font-sans text-lg text-amber-600">Thank you for visiting my page!</h2>
       </div>
