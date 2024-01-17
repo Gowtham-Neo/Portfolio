@@ -46,6 +46,18 @@ const Header = () => {
             </li>
             <li>
               <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="text-lg font-semibold text-white transition duration-300 cursor-pointer hover:text-amber-500 hover:border-b-2 border-amber-500"
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="project"
                 spy={true}
                 smooth={true}

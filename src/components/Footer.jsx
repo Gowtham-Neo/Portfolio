@@ -1,50 +1,14 @@
-import React from "react";
-import image from "../assets/Me.jpg";
 import { Link } from "react-scroll";
 
-export default function Home() {
+export default function Footer() {
   return (
-    <section
-      id="home"
-      className="flex flex-col items-center min-h-screen p-10 md:flex-row md:justify-center md:bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-200"
-    >
-      <div className="flex items-start justify-around flex-1 h-full">
-        <img
-          src={image}
-          alt="Sample"
-          className="object-cover transition-transform duration-300 shadow-lg rounded-3xl md:w-8/12 h-4/6 shadow-black hover:transform hover:scale-105"
-        />{" "}
+    <div className="relative left-0 right-0 flex flex-col items-center justify-center p-5 border bottom-1 md:bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-200 border-zinc-500">
+      <div className="mb-5">
+        <h2 className="font-sans text-lg text-amber-600">Thank you for visiting my page!</h2>
       </div>
-      <div className="flex-1 text-black">
-        <h1 className="">
-          <h1 className="mt-4 text-xl md:text-3xl">Hello!</h1>
-          <h1 className="mt-1 font-sans text-xl md:text-3xl">
-            I am{" "}
-            <span className="font-serif text-2xl font-bold md:text-4xl text-amber-500">
-              Gowtham
-            </span>
-          </h1>
-          <h4 className="mt-2 font-semibold text-black md:text-xl">
-            Fullstack Developer
-          </h4>
-          <h1 className="mt-3 font-sans text-sm md:text-base md:w-5/6 text-zinc-700">
-            Seeking an invigorating position where I can channel my technical
-            expertise for the advancement of the organization, while
-            continuously acquiring deeper knowledge in the process.
-          </h1>
-        </h1>
-        <div className="mt-4">
-          <a
-            href="https://drive.google.com/file/d/1Oy9X77JIINHsc9q2_4OOivPuvAyl_Obh/view"
-            target="_blank"
-            className="px-4 py-2 mt-6 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
-          >
-            My Resume
-          </a>
-        </div>
-      </div>
-      <div className="absolute hidden right-4 bottom-4 md:block">
-        <div className="mb-52">
+      <div className="flex flex-col items-center justify-center">
+        <h2 className="items-center font-sans text-lg">Follow Me on 👇</h2>
+        <div className="flex flex-row items-center justify-center gap-7">
           <a href="https://www.linkedin.com/in/gowthamneo/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +50,13 @@ export default function Home() {
             </svg>
           </a>
         </div>
+        <div className="mt-5">
+          <h2>&#169; copyright 2024. All rights reserved</h2>
+        </div>
+      </div>
+      <div className="absolute hidden right-4 bottom-4 md:block">
         <Link
-          to="about"
+          to="home"
           spy={true}
           smooth={true}
           offset={50}
@@ -95,6 +64,7 @@ export default function Home() {
           className="text-lg font-semibold transition duration-1000 ease-in-out cursor-pointer text-amber-500 hover:border-b-2 border-amber-500"
         >
           <svg
+            xmlns="http://www.w3.org/2000/svg"
             className="w-8 h-8 text-gray-600 transition duration-300 transform hover:text-gray-900 hover:scale-110"
             fill="none"
             strokeLinecap="round"
@@ -103,10 +73,10 @@ export default function Home() {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            <path d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
           </svg>
         </Link>
       </div>
-    </section>
+    </div>
   );
 }
