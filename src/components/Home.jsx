@@ -35,7 +35,7 @@ export default function Home() {
         </h1>
         <div className="mt-4">
           <a
-            href="https://drive.google.com/file/d/1Oy9X77JIINHsc9q2_4OOivPuvAyl_Obh/view"
+            href="https://drive.google.com/file/d/12xg47uZsTaII8Kp9w4Y8eZZAHfvWjjVC/view?usp=sharing"
             target="_blank"
             className="px-4 py-2 mt-6 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
           >
