@@ -18,7 +18,7 @@ export default function Projects() {
           Projects I have Done
         </h2>
       </div>
-      <div className="grid grid-cols-1 gap-1 mx-12 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-1 md:mx-12 md:grid-cols-3">
         <div className="p-4 m-5 text-black border shadow-xl md:m-10 rounded-2xl shadow-slate-900">
           <a href="https://sport-centre.netlify.app/" target="_blank">
             <img src={Sports} alt="Sports  Image" className="rounded-2xl" />
