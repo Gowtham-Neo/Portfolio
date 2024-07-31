@@ -4,6 +4,7 @@ import TodoApp from "../assets/Todo-app.png";
 import CGPA from "../assets/CGPA.png";
 import SmartTasker from "../assets/SmartTasker.png";
 import Sports from "../assets/Sports.png"
+import Guest from "../assets/Guest.png"
 export default function Projects() {
   return (
     <div
@@ -21,6 +22,35 @@ export default function Projects() {
       <div className="grid grid-cols-1 gap-1 md:mx-12 md:grid-cols-3">
         <div className="p-4 m-5 text-black border shadow-xl md:m-10 rounded-2xl shadow-slate-900">
           <a href="https://sport-centre.netlify.app/" target="_blank">
+            <img src={Guest} alt="Guest Image" className="rounded-2xl" />
+          </a>
+          <div>
+            <h1 className="mt-2 font-serif font-semibold md:text-xl text-amber-700">
+              Guestify.in
+            </h1>
+            <p className="mt-3 mb-3 font-sans text-sm md:text-base text-zinc-900">
+              Welcome to the Guest Room Booking Application! This application
+              allows house owners to manage their properties and rooms while
+              enabling customers to browse, check availability, and book rooms.
+            </p>
+            <a
+              href="https://github.com/Gowtham-Neo/Guest-Room-Booking-Application/"
+              target="_blank"
+              className="px-4 py-2 mt-3 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-600 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
+            >
+              Code
+            </a>
+            <a
+              href="https://sport-centre.netlify.app/"
+              target="_blank"
+              className="px-4 py-2 mt-3 ml-4 text-sm text-black line-through border rounded-lg shadow-sm pointer-events-none md:font-medium border-hidden bg-amber-600 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
+            >
+              Live
+            </a>
+          </div>
+        </div>
+        <div className="p-4 m-5 text-black border shadow-xl md:m-10 rounded-2xl shadow-slate-900">
+          <a href="https://sport-centre.netlify.app/" target="_blank">
             <img src={Sports} alt="Sports  Image" className="rounded-2xl" />
           </a>
           <div>
@@ -28,11 +58,10 @@ export default function Projects() {
               Sports Center
             </h1>
             <p className="mt-3 mb-3 font-sans text-sm md:text-base text-zinc-900">
-              Welcome to our React-based Sports Cente. This
-              dynamic platform is designed to provide users with up-to-date
-              sports news articles and live scores for various sports. Whether
-              you're a sports enthusiast, a casual follower,
-              this dashboard has you covered.
+              Welcome to our React-based Sports Cente. This dynamic platform is
+              designed to provide users with up-to-date sports news articles and
+              live scores for various sports. Whether you're a sports
+              enthusiast, a casual follower, this dashboard has you covered.
             </p>
             <a
               href="https://github.com/Gowtham-Neo/Sports-Center"
@@ -113,7 +142,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        
+
         <div className="p-4 m-5 text-black border shadow-xl md:m-10 rounded-2xl shadow-slate-900">
           <a
             href="https://gowtham-neo.github.io/CGPA-Calculator/"
