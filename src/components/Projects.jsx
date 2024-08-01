@@ -3,8 +3,8 @@ import FoodApp from "../assets/FoodApp.png";
 import TodoApp from "../assets/Todo-app.png";
 import CGPA from "../assets/CGPA.png";
 import SmartTasker from "../assets/SmartTasker.png";
-import Sports from "../assets/Sports.png"
-import Guest from "../assets/Guest.png"
+import Sports from "../assets/Sports.png";
+import Guest from "../assets/Guest.png";
 export default function Projects() {
   return (
     <div
@@ -171,40 +171,6 @@ export default function Projects() {
               href="https://gowtham-neo.github.io/CGPA-Calculator/"
               target="_blank"
               className="px-4 py-2 mt-3 ml-4 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-600 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
-            >
-              Live
-            </a>
-          </div>
-        </div>
-        <div className="p-4 m-5 text-black border shadow-xl md:m-10 rounded-2xl shadow-slate-900">
-          <a
-            href="https://wd301-todo.netlify.app/account/projects"
-            target="_blank"
-          >
-            <img src={SmartTasker} alt="LMS Image" className="rounded-2xl" />
-          </a>
-          <div>
-            <h1 className="mt-2 font-serif font-semibold md:text-xl text-amber-600">
-              Smart Tasker{" "}
-              <span className="text-lg text-zinc-700">(ongoing)</span>
-            </h1>
-            <p className="mt-3 mb-3 font-sans text-sm md:text-base text-zinc-900">
-              Smarter Task, a React and TypeScript-based project management
-              tool, empowers seamless collaboration. Effortlessly manage
-              projects, assign tasks, and coordinate with team members for
-              efficient project execution."
-            </p>
-            <a
-              href="https://github.com/Gowtham-Neo/wd301/tree/main/smarter-tasks"
-              target="_blank"
-              className="px-4 py-2 mt-3 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
-            >
-              Code
-            </a>
-            <a
-              href="https://wd301-todo.netlify.app/account/projects"
-              target="_blank"
-              className="px-4 py-2 mt-3 ml-4 text-sm text-black border rounded-lg shadow-sm md:font-medium border-hidden bg-amber-500 hover:bg-amber-400 hover:shadow-inner hover:scale-105"
             >
               Live
             </a>
