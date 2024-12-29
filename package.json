@@ -22,7 +22,8 @@
     "react-social-icons": "^6.7.0",
     "three": "^0.160.0",
     "three-bmfont-text": "^3.0.1",
-    "troika-three-text": "^0.49.0"
+    "troika-three-text": "^0.49.0",
+    "vite-plugin-pwa": "^0.17.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
