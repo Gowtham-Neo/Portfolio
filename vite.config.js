@@ -12,8 +12,8 @@ export default defineConfig({
       },
       registerType: 'autoUpdate',
       manifest: {
-        name: "Gowtham Portfolio",
-        short_name: "GowthamNeo",
+        name: "Gowtham",
+        short_name: "Gowtham",
         icons: [
           {
             "src": "/favicon.ico",
