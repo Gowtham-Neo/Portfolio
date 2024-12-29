@@ -12,8 +12,8 @@ export default defineConfig({
       },
       registerType: 'autoUpdate',
       manifest: {
-        name: "Sport-Center application",
-        short_name: "Sport Center",
+        name: "Gowtham Portfolio",
+        short_name: "GowthamNeo",
         icons: [
           {
             "src": "/favicon.ico",
